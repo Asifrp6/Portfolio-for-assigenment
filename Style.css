@@ -13,8 +13,18 @@ h1{
 h2{
     font-size: 40px;
 }
+h4{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+    color: azure;
+}
 .orange-color{
-    color: orange;
+    color: #e919ab;
 }
 .flexible-contaner{
     display: flex;
@@ -45,9 +55,8 @@ h2{
     color: rgb(1, 5, 1);
 }
 
-
 header{
-    background-color: rgb(100, 100, 100);
+    background: rgba(13, 144, 184, 0.3);
     margin-top:0px;
     height: 80px;   
     display: flex;
@@ -98,31 +107,42 @@ font-weight: 500;
     background-position: left;
 }
 #web-ex1{
-    border-left: 10px solid;
+    border-bottom: 10px solid;
     border-image: linear-gradient(purple, tomato);
-    border-image-slice: 1;
+    border-image-slice: 4;
 }
 #web-ex2{
-    border-left: 10px solid;
+    border-bottom: 10px solid;
     border-image: linear-gradient(blue,cyan);
-    border-image-slice: 1;
+    border-image-slice: 4;
+}
+#web-ex3{
+    border-bottom: 10px solid;
+    border-image: linear-gradient(rgb(235, 9, 84),rgb(13, 165, 127));
+    border-image-slice: 4;
 }
 #about{
     margin: 10px 0;
-    background-color: darkgray;
+    background-color: rgba(199, 191, 191, 0.096);
     height: 650px;
     border-radius: 10px;
 }
 
 #projects{
     margin: 10px 0;
-    background-color: darkgray;
+    background-color: rgba(199, 191, 191, 0.096);
     height: 650px;
     border-radius: 10px;
 }
 #skills{
     margin: 10px 0;
-    background-color: darkgray;
+    background-color: rgba(199, 191, 191, 0.096);
+    height: 650px;
+    border-radius: 10px;
+}
+#contact{
+    margin: 10px 0;
+    background-color: rgba(199, 191, 191, 0.096);
     height: 650px;
     border-radius: 10px;
 }
@@ -139,8 +159,19 @@ font-weight: 500;
     background-color: rgb(12, 32, 48);
     
 }
+
+.skillsP{
+    display: flex;
+}
+.headstyle{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(45, 145, 192, 0.5);
+
+    
+}
 .hrsp{   
-     margin-top: 30px;
+     margin-top: 50%;
     width:180px;
     padding: 5;
     margin-left: 10px;
@@ -151,7 +182,7 @@ font-weight: 500;
 }
 .hrsc {
     margin-top: 30px;
-    width: 70px;
+    width: 126px;
     margin-left:0;
     height: 3px;
     border-radius: 5px;
@@ -161,16 +192,16 @@ font-weight: 500;
 
 .hrscs {
     margin-top: 30px;
-    width: 30px;
+    width: 54px;
     margin-left:0;
     height: 3px;
     border-radius: 5px;
-    background-color:green;
+    background-color:red;
 
 }
 .hrscss {
     margin-top: 30px;
-    width: 60px;
+    width: 108px;
     margin-left:0;
     height: 3px;
     border-radius: 5px;
@@ -179,7 +210,7 @@ font-weight: 500;
 }
 .hrshtml {
     margin-top: 30px;
-    width: 65px;
+    width: 117px;
     margin-left:0;
     height: 3px;
     border-radius: 5px;
@@ -188,20 +219,46 @@ font-weight: 500;
 }
 .hrsjs {
     margin-top: 30px;
-    width: 30px;
+    width: 54px;
     margin-left:0;
     height: 3px;
     border-radius: 5px;
-    background-color:green;
+    background-color:red;
 
 }
 .logoimage img{
     margin-top: 20px;
     margin-left: 25%;
-    height: 50%;
+    height: 100px;
     width: 100px;
+}
+.liveChat{
+    border-radius: 25px;
+    background-color: rgba(41, 23, 206, 0.774);
+    margin-left: 400px;
+    margin-top: 150px;
+    width: 500px;
+    padding: 20px;
+    height: 100px;
+}
+.emailMe{
+    border-radius: 20px;
+    background-color: rgba(204, 105, 105, 0.747);
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+ 
+}
+.main{
+    display: inline-block;
+}
+.btn{
+    margin-left: 210px;
 }
 
 footer p{
     text-align: center;
+
 }

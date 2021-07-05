@@ -10,10 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
+    <!-- navbar start -->
     <header>
         <h1 class="logo">Port<Span class="orange-color">flio</Span></h1>
         <nav>
@@ -21,11 +23,14 @@
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#projects">PROJECTS</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Home part start from here -->
+
     <section id="home" class="top-banner flexible-contaner">
         <div class="helf-width">
             <h1>Welcome</h1>
@@ -43,9 +48,10 @@
             <img src="Image/pic1.png" alt="">
     </section>
 
+    <!-- About section form here -->
+
     <section id="about" class="dream-big ">
-        <h1>Dream Big</h1>
-        <hr>
+        <h1 class="headstyle">ABOUT<span class="orange-color"> ME</span></h1>
         <div class="flexible-contaner">
             <div class=" helf-width">
                 <img src="Image/pic2.png" alt="">
@@ -62,12 +68,12 @@
                     </div>
                 </div>
             </div>
-
-
     </section>
+
+    <!-- projects from here -->
+
     <section id="projects" class="exprience-era">
-        <h1>PROJECTS</h1>
-        <hr>
+        <h1 class="headstyle">PROJE<span class="orange-color">CTS</span></h1>
         <div class="flexible-contaner">
             <div id="web-ex1" class="helf-width exprience-item">
                 <h4 class="orange-color">Full Stack Web Developer</h4>
@@ -76,7 +82,6 @@
                         <img src="Image/pic1.png" alt="">
                     </div>
             </div>
-
             <div id="web-ex2" class="helf-width exprience-item">
                 <h4 class="orange-color">Baby web developer</h4>
                 <h5> 2020-2021 | Programming Hero Learner</h5>
@@ -84,7 +89,7 @@
                     <img src="Image/pic1.png" alt="">
                 </div>
             </div>
-            <div id="web-ex2" class="helf-width exprience-item">
+            <div id="web-ex3" class="helf-width exprience-item">
                 <h4 class="orange-color">Baby web developer</h4>
                 <h5>2020-2021 | Programming Hero Learner</h5>
                 <div class="pimage">
@@ -94,21 +99,21 @@
         </div>
     </section>
 
+    <!-- skills stsrt from here -->
+
     <section id="skills">
-        <h1>SKILLS</h1>
-        <hr>
+        <h1 class="headstyle">SKI<span class="orange-color">LLS</span> </h1>
         <div class="skillsP">
             <div class="skillps">
                 <h4 class="orange-color">HTML</h4>
-                <h4>Skill %</h5>
-                    <div class="logoimage">
-                        <img src="Image/logo/ht.png" alt="">
-                    </div>
-                    <div class="hrsp">
-                        <hr class="hrshtml">
-                    </div>
+                <h5>Skill %</h5>
+                <div class="logoimage">
+                    <img src="Image/logo/ht.png" alt="">
+                </div>
+                <div class="hrsp">
+                    <hr class="hrshtml">
+                </div>
             </div>
-
             <div class="skillps">
                 <h4 class="orange-color">CSS</h4>
                 <h5>Skill %</h5>
@@ -151,6 +156,25 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- Contact part start from here -->
+
+    <section id="contact">
+        <h1 class="headstyle">CONTR<span class="orange-color">ACT</span> </h1>
+        <div class=" main">
+            <div class="liveChat ">
+                <h4 class="orange-color">Direct Massege</h4>
+                <h5>From Messenger</h5>
+                <button class="btn"><i class="fa fa-comments"
+                        style="font-size:48px;color:rgb(25, 15, 114)"></i></button>
+            </div>
+            <div class="emailMe">
+                <h4 class="orange-color">Send Mail</h4>
+                <h5> asifrp6@gmail.com</h5>
+                <button class="btn"><i class="fa fa-envelope" style="font-size:48px;color:red"></i></button>
+            </div>
+
     </section>
     <footer>
         <p>© Md. Asifur Rahman 2021, a Programming Hero initiative.</p>
