@@ -13,6 +13,10 @@ h1{
 h2{
     font-size: 40px;
 }
+h3{
+    margin-top: 10px;
+    text-align: center;
+}
 h4{
     text-align: center;
 }
@@ -21,13 +25,15 @@ h4{
 }
 h5{
     text-align: center;
-    color: azure;
+    color: white;
+    
 }
-.orange-color{
+.red-color{
     color: #e919ab;
 }
 .flexible-contaner{
     display: flex;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 .helf-width{
@@ -49,7 +55,7 @@ h5{
     color: white;
     font-weight: 700;
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 .button a:hover{
     color: rgb(1, 5, 1);
@@ -101,11 +107,16 @@ font-weight: 500;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
 }
-.exprience-era{
-    background-image: url(Image/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
+.exprience-item img{
+    border-radius: 10px;
 }
+
+.banner-about{
+    background-image: url(Image/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+
+}
+
 #web-ex1{
     border-bottom: 10px solid;
     border-image: linear-gradient(purple, tomato);
@@ -118,21 +129,34 @@ font-weight: 500;
 }
 #web-ex3{
     border-bottom: 10px solid;
-    border-image: linear-gradient(rgb(235, 9, 84),rgb(13, 165, 127));
+    border-image: linear-gradient(rgb(235, 9, 84),rgb(107, 165, 13));
     border-image-slice: 4;
 }
 #about{
     margin: 10px 0;
+    height: 650px;
+    border-radius: 10px;
+}
+.abbackpic{
+    background-image: url(Image/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#projects{
+    margin: 0;
     background-color: rgba(199, 191, 191, 0.096);
     height: 650px;
     border-radius: 10px;
 }
-
-#projects{
-    margin: 10px 0;
-    background-color: rgba(199, 191, 191, 0.096);
-    height: 650px;
-    border-radius: 10px;
+.pimage img{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.exbackpic{
+    background-image: url(Image/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #skills{
     margin: 10px 0;
@@ -140,35 +164,45 @@ font-weight: 500;
     height: 650px;
     border-radius: 10px;
 }
+
+.skilbakpic{
+    background-image: url(Image/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 #contact{
     margin: 10px 0;
     background-color: rgba(199, 191, 191, 0.096);
     height: 650px;
     border-radius: 10px;
 }
+.contractbacpic{
+    background-image: url(Image/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
 .skillps{
-    height: 300px;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 25px;
     display: inline-block;
     width: 15%;
     border:2px mintcream solid;
     box-shadow: rgb(100, 100, 100);
     border-radius: 5px;
-    background-color: rgb(12, 32, 48);
-    
+    background-color: rgb(12, 32, 48); 
 }
 
-.skillsP{
+ .skillsP{
     display: flex;
-}
+    margin-top: 80px;
+    margin-bottom: 250px;
+} 
 .headstyle{
     text-align: center;
     margin-top: 20px;
     background-color: rgba(45, 145, 192, 0.5);
-
-    
 }
 .hrsp{   
      margin-top: 50%;
@@ -236,29 +270,34 @@ font-weight: 500;
     border-radius: 25px;
     background-color: rgba(41, 23, 206, 0.774);
     margin-left: 400px;
-    margin-top: 150px;
+    margin-top: 80px;
     width: 500px;
     padding: 20px;
     height: 100px;
 }
 .emailMe{
     border-radius: 20px;
-    background-color: rgba(204, 105, 105, 0.747);
+    background-color: rgba(204, 105, 105, 0.479);
     margin-left: 400px;
     margin-top: 20px;
     width: 500px;
     height: 100px;
     padding: 20px;
- 
 }
 .main{
     display: inline-block;
+    margin-top: 20pz;
 }
 .btn{
     margin-left: 210px;
 }
 
+footer{
+    background-color: rgb(14, 90, 151);
+    height: 80px;
+}
 footer p{
+    padding-top: 20px;
     text-align: center;
 
 }
