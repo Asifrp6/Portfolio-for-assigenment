@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 body{
     margin: 0;
     background-image: url(Image/top-banner.png) ;
@@ -19,6 +21,7 @@ h2{
     margin-bottom: 100px;
 }
 .helf-width{
+    margin: 30px;
     width: 50%;
     padding: 1%;
 }
@@ -27,17 +30,24 @@ h2{
     width: 80%;
 }
 
+.button{
+    margin-top: 20px;
+}
 .link-button{
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(226, 10, 10), tomato);
     text-decoration: none;
     color: white;
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
 }
+.button a:hover{
+    color: rgb(1, 5, 1);
+}
+
 
 header{
-    background-color: rgba(100, 100, 100, 0.5);
+    background-color: rgb(100, 100, 100);
     margin-top:0px;
     height: 80px;   
     display: flex;
@@ -97,6 +107,101 @@ font-weight: 500;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
 }
+#about{
+    margin: 10px 0;
+    background-color: darkgray;
+    height: 650px;
+    border-radius: 10px;
+}
+
+#projects{
+    margin: 10px 0;
+    background-color: darkgray;
+    height: 650px;
+    border-radius: 10px;
+}
+#skills{
+    margin: 10px 0;
+    background-color: darkgray;
+    height: 650px;
+    border-radius: 10px;
+}
+.skillps{
+    height: 300px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 25px;
+    display: inline-block;
+    width: 15%;
+    border:2px mintcream solid;
+    box-shadow: rgb(100, 100, 100);
+    border-radius: 5px;
+    background-color: rgb(12, 32, 48);
+    
+}
+.hrsp{   
+     margin-top: 30px;
+    width:180px;
+    padding: 5;
+    margin-left: 10px;
+    height: 5px;
+    border-radius: 5px;
+    background-color:white;
+
+}
+.hrsc {
+    margin-top: 30px;
+    width: 70px;
+    margin-left:0;
+    height: 3px;
+    border-radius: 5px;
+    background-color:green;
+
+}
+
+.hrscs {
+    margin-top: 30px;
+    width: 30px;
+    margin-left:0;
+    height: 3px;
+    border-radius: 5px;
+    background-color:green;
+
+}
+.hrscss {
+    margin-top: 30px;
+    width: 60px;
+    margin-left:0;
+    height: 3px;
+    border-radius: 5px;
+    background-color:green;
+
+}
+.hrshtml {
+    margin-top: 30px;
+    width: 65px;
+    margin-left:0;
+    height: 3px;
+    border-radius: 5px;
+    background-color:green;
+
+}
+.hrsjs {
+    margin-top: 30px;
+    width: 30px;
+    margin-left:0;
+    height: 3px;
+    border-radius: 5px;
+    background-color:green;
+
+}
+.logoimage img{
+    margin-top: 20px;
+    margin-left: 25%;
+    height: 50%;
+    width: 100px;
+}
+
 footer p{
     text-align: center;
 }
